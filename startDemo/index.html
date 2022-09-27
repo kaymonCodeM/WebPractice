@@ -1,0 +1,94 @@
+<html lang="en">
+
+<!-- 
+    I find the navbar extemely important because doing this without bootstrap in
+    the pass has been difficult for me.
+
+    Pracive with Adrian Twarog youtube video
+    Navbar Bootstrap 5 | Navbar Tutorial
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5.2.1/dist/css/bootstrap.min.css">
+    <title>Bootstrap Nav</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <div class="container">
+            <!-- m is margin -->
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" src="img/popcorn.jpg" width="30" height="30" />
+                Navbar
+            </a>
+
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse d-grid justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="bootstrapGridPractice.html" class="nav-link">
+                            Bootstrap Grid
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link 
+                        dropdown-toggle" id="navbarDropDown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More Practice
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="class.html" class="dropdown-item">Class Practice</a></li>
+                            <li><a href="contactForm.html" class="dropdown-item">Form Practice</a></li>
+                            <li><a href="cards.html" class="dropdown-item">Cards Practice</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="another.html" class="nav-link">
+                            About Another
+                        </a>
+                    </li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="text" class="form-control me-2">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container my-nav-body" style="margin-top: 80px;">
+        <div class="row justify-content-between">
+            <div class="col-5">
+                <img src="img/nav.jpg" alt="" width="100%">
+            </div>
+            <div class="col-5">
+                <p>Do labore ut ea sunt elit. Laboris ex quis cupidatat dolore nulla nisi pariatur exercitation. Occaecat nostrud eu ea dolor cupidatat do sunt tempor Lorem incididunt consequat irure aliqua. Sit ut velit ea ex. Occaecat proident sunt enim eiusmod. Ex veniam officia enim est esse ullamco anim et adipisicing.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap-5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

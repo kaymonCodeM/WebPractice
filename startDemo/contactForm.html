@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5.2.1/dist/css/bootstrap.min.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container mt-5">
+
+        <form action="row">
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mt-3">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (402) 123-4567">
+                </div>
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="comments" class="form-label">Comments</label>
+                <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12 mt-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap-5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

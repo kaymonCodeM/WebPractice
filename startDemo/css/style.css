@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    color: blueviolet;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+
+.container{
+    width: 800;
+    text-align: center;
+}
+
+nav{
+    font-size: 18px;
+}
